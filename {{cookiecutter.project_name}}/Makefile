@@ -5,7 +5,7 @@ test:
 	pytest
 
 test-coverage:
-	pytest --cov=src --cov-report html --cov-config .coveragerc
+	pytest --cov={{cookiecutter.project_name}} --cov-report html --cov-config .coveragerc
 
 # flake8
 lint:
