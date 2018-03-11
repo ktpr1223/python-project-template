@@ -5,7 +5,11 @@ author = '{{cookiecutter.author_name}}'
 
 install_requires = ['PyYAML']
 extras_require = {
-    'test': ['pytest', 'flake8', 'pytest-cov'],
+    'test': [
+        'pytest', 'pytest-cov', 'pytest-faker', 'pytest-mock', 'flake8',
+        'flake8-docstrings', 'flake8-import-order', 'flake8-double-quotes',
+        'flake8-print', 'pep8-naming', 'ipython', 'ipdb'
+    ],
 }
 
 setup(
