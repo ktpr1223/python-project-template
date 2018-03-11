@@ -1,3 +1,4 @@
+"""setup.py setup用のスクリプト."""
 from setuptools import setup
 
 project_name = '{{cookiecutter.project_name}}'
